@@ -79,7 +79,7 @@ public class NeoUtility {
 		Reporter.log("WaitTime : "+waitTime ,true);
 	}
 
-	public static void ExplicitWait(WebDriver driver,WebElement element) {
+	public static void ExplicitWait(WebDriver driver,WebElement element,int nam) {
 		
 		WebDriverWait wt=new WebDriverWait(driver,Duration.ofSeconds(5000));
 		wt.until(ExpectedConditions.visibilityOf(element));
