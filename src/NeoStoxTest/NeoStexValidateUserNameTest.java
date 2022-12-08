@@ -45,7 +45,7 @@ public class NeoStexValidateUserNameTest extends Base {
 		password.submit(driver);
 		Thread.sleep(2000);
 		welcome.closeImpInfoPage(driver);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		welcome.closeWelcomePage(driver);
 		
 	}
